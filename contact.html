@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.png" alt="Your Kitchen" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+         <a href="index.html" class="nav-link"> <b>home</b> </a>
+          <a href="about.html" class="nav-link"> <b>about</b> </a>
+          <a href="tags.html" class="nav-link"> <b>tags</b></a>
+          <a href="recipes.html" class="nav-link"> <b>recipes</b> </a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+     <section class="contact-container">
+          <article class="contact-info">
+            <h3>Want To Get In Touch?</h3>
+            <p>
+              If you need to request a free phone call or reach us for any other reason, you’re in the right place! Submit the form below and we will call you back.
+            </p>
+            <p>Tell us about your issue so we can help you more quickly..</p>
+            </article>
+          <article>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label html="name" class="form-label">your name</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="email" class="form-label">your email</label>
+                <input type="text" name="email" id="email" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="message" class="form-label">message</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                submit
+              </button>
+            </form>
+          </article>
+        </section>
+       <section class="featured-recipes">
+        <h5 class="featured-title">Most Visited Recipes!</h5>
+        <div class="recipes-list">
+          <a href="second-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-2.jpg" class="img recipe-img" alt=""/>
+            <h5>Potato Chips</h5>
+            <p>Prep : 50min | Cook : 25min</p>
+          </a>
+          <a href="third-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-1.jpg" class="img recipe-img" alt=""/>
+            <h5>Upma</h5>
+            <p>Prep : 35min | Cook : 25min</p>
+          </a>
+          <a href="fourth-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-3.jpg" class="img recipe-img" alt=""/>
+            <h5>Palak Dosa</h5>
+            <p>Prep : 25min | Cook : 15min</p>
+          </a>
+          <a href="first-recipe.html" class="recipe">
+            <img src="./assets/recipes/recipe-4.jpg" class="img recipe-img" alt=""/>
+            <h5>Samosa</h5>
+            <p>Prep : 60 min | Cook : 25min</p>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+     <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">YourKitchen</span> Built by
+	<a href="https://github.com/GnanaDarphan">GnanaDarphanMG</a>
+      </p>
+    </footer>
+  </body>
+</html>
